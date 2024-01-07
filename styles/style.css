@@ -6,6 +6,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.shared {
+    width: 80%;
+    margin: 60px auto;
+}
+
 
 /* header section */
 
@@ -17,7 +22,7 @@
     border-radius: 16px;
     /* background: linear-gradient(#070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     width: 80%;
-    margin: 20px auto;
+    margin: 20px auto 0px;
 }
 
 .banner-details {
@@ -44,7 +49,30 @@
 
 /* Discount section */
 
-.container {
-    margin: 90px 390px;
+#discount .container {
+    margin: 120px 400px;
     text-align: center;
+}
+
+.offers .offer-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.offers .holiday-deals {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.offers .categories {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    margin-bottom: 40px;
 }
