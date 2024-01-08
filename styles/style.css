@@ -8,7 +8,7 @@
 
 .shared {
     width: 80%;
-    margin: 80px auto;
+    margin: 100px auto;
     border-radius: 16px;
 }
 
@@ -20,14 +20,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* background: linear-gradient(#070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     width: 80%;
-    margin: 20px auto 0px;
+    margin: 30px auto 0px;
 }
 
 .banner-details {
     background: linear-gradient(#070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
+    padding: 170px 300px
 }
 
 .banner-content {
@@ -36,7 +36,7 @@
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
-    padding: 170px 450px 0px;
+    margin-bottom: 20px;
 }
 
 .banner-heading {
@@ -44,7 +44,6 @@
     font-family: Merriweather;
     text-align: center;
     font-size: 72px;
-    padding: 0px 340px 170px;
 }
 
 
@@ -149,11 +148,11 @@
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
-    padding: 100px 380px 0px 380px;
-    margin-bottom: 48px;
+    padding-top: 100px;
+    margin-bottom: 45px;
 }
 
-.event-place .highlight {
+.highlight {
     color: #F00;
 }
 
@@ -241,4 +240,63 @@
     font-size: 20px;
     font-weight: 400;
     padding-bottom: 20px;
+}
+
+
+/* Holiday Sale section */
+
+.holiday-sale {
+    text-align: center;
+}
+
+.holiday-sale-ques {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.holiday-sale-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holiday-sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding: 0px 120px;
+}
+
+.holiday-image {
+    background: #FFF;
+    background-image: url('../resources/rectangle2.png'), url('../resources/rectangle1.png');
+    background-repeat: no-repeat;
+    background-position: bottom, top right;
+    background-size: auto;
+    border-radius: 16px 0px 16px 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.holiday-image-one {
+    width: 700px;
+    height: 550px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.holiday-image-two {
+    width: 220px;
+    height: 220px;
+    padding-right: 450px;
+    padding-bottom: 320px;
+    padding-top: 120px;
+    padding-left: 0px;
 }
