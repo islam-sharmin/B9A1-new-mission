@@ -173,17 +173,18 @@
 
 /* Best offer section */
 
-.best-offer-container {
+.shared .best-offer-container {
     background: #FFF;
     border-radius: 16px;
     display: flex;
+    justify-content: center;
+    text-align: left;
 }
 
 .new-best-offer {
-    text-align: left;
-    margin: auto;
-    padding-right: 50px;
-    padding-left: 20px;
+    width: 35%;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .new-best-offer-title {
@@ -191,6 +192,7 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    padding-bottom: 5px;
 }
 
 .new-best-offer-info {
@@ -205,24 +207,24 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    margin-top: 22px;
+    padding-top: 20px;
+    margin-right: 50px;
 }
 
 .offer-image {
-    margin-right: 70px;
+    margin-right: 100px;
 }
 
 .offer-image>img {
-    margin-right: 50px;
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 30px;
 }
 
 .new-year-content {
-    text-align: left;
-    margin: auto;
-    padding-right: 20px;
+    width: 20%;
+    margin-top: 100px;
+    margin-bottom: 0px;
 }
 
 .new-year-title {
@@ -230,7 +232,7 @@
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .new-year-description {
@@ -238,5 +240,5 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
