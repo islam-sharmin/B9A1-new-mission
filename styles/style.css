@@ -444,7 +444,7 @@ input[type="submit"] {
 
 .address-details h6 {
     text-align: left;
-    padding: 100px 140px;
+    padding: 100px 140px 10px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -453,10 +453,12 @@ input[type="submit"] {
 }
 
 .contact {
-    padding: 100px 140px;
+    padding: 100px 140px 10px;
 }
 
 .contact .phone {
+    display: flex;
+    gap: 5px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -465,6 +467,8 @@ input[type="submit"] {
 }
 
 .contact .website {
+    display: flex;
+    gap: 5px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -473,7 +477,7 @@ input[type="submit"] {
 
 hr {
     background: rgba(255, 255, 255, 0.15);
-    margin: 48px 140px;
+    margin: 40px 140px;
 }
 
 .social-links {
@@ -490,5 +494,6 @@ hr {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding: 80px 140px;
+    padding: 0px 140px 80px;
+    text-decoration: none;
 }
