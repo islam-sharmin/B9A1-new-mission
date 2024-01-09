@@ -428,3 +428,67 @@ input[type="submit"] {
     text-transform: capitalize;
     padding: 10px 40px;
 }
+
+
+/* footer setion */
+
+.footer {
+    background: #070211;
+    text-align: center;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-details h6 {
+    text-align: left;
+    padding: 100px 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.contact {
+    padding: 100px 140px;
+}
+
+.contact .phone {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.contact .website {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    margin: 48px 140px;
+}
+
+.social-links {
+    margin-left: 24px;
+}
+
+.footer-down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reserve {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 80px 140px;
+}
